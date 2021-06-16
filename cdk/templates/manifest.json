@@ -1,0 +1,115 @@
+{
+  "version": "12.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "SimpleAppStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "SimpleAppStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/SimpleAppStack/BukcetRolodu/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BukcetRolodu0228AE60",
+            "trace": [
+              "new Bucket (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/@aws-cdk/aws-s3/lib/bucket.ts:710:22)",
+              "new SimpleAppStack (/home/jordhan/projetos/cdk-projects/simple-app/lib/simple-app-stack.ts:8:28)",
+              "Object.<anonymous> (/home/jordhan/projetos/cdk-projects/simple-app/bin/simple-app.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:955:30)",
+              "Module.m._compile (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:991:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:811:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:723:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)",
+              "main (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:955:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)",
+              "Module.load (internal/modules/cjs/loader.js:811:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:723:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)",
+              "/home/jordhan/.nvm/versions/node/v12.15.0/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/SimpleAppStack/BukcetRoloduNameExport": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BukcetRoloduNameExport",
+            "trace": [
+              "new SimpleAppStack (/home/jordhan/projetos/cdk-projects/simple-app/lib/simple-app-stack.ts:12:5)",
+              "Object.<anonymous> (/home/jordhan/projetos/cdk-projects/simple-app/bin/simple-app.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:955:30)",
+              "Module.m._compile (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:991:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:811:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:723:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)",
+              "main (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:955:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)",
+              "Module.load (internal/modules/cjs/loader.js:811:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:723:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)",
+              "/home/jordhan/.nvm/versions/node/v12.15.0/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/SimpleAppStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:22:24)",
+              "/home/jordhan/projetos/cdk-projects/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5",
+              "visit (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:202:5)",
+              "visit (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:198:5)",
+              "injectMetadataResources (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/@aws-cdk/core/lib/stage.ts:94:23)",
+              "process.<anonymous> (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/@aws-cdk/core/lib/app.ts:62:45)",
+              "Object.onceWrapper (events.js:313:26)",
+              "process.emit (events.js:223:5)",
+              "process.EventEmitter.emit (domain.js:475:20)",
+              "process.emit (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/source-map-support/source-map-support.js:495:21)",
+              "process.topLevelDomainCallback (domain.js:130:23)"
+            ]
+          }
+        ],
+        "/SimpleAppStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:31:27)",
+              "/home/jordhan/projetos/cdk-projects/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5",
+              "visit (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:202:5)",
+              "visit (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:198:5)",
+              "injectMetadataResources (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/@aws-cdk/core/lib/stage.ts:94:23)",
+              "process.<anonymous> (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/@aws-cdk/core/lib/app.ts:62:45)",
+              "Object.onceWrapper (events.js:313:26)",
+              "process.emit (events.js:223:5)",
+              "process.EventEmitter.emit (domain.js:475:20)",
+              "process.emit (/home/jordhan/projetos/cdk-projects/simple-app/node_modules/source-map-support/source-map-support.js:495:21)",
+              "process.topLevelDomainCallback (domain.js:130:23)"
+            ]
+          }
+        ]
+      },
+      "displayName": "SimpleAppStack"
+    }
+  }
+}
